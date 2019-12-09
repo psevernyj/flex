@@ -6,40 +6,142 @@
 body {
   font-size: 1.6rem;
   font-family: Lato;
-  background-image: url("../img/background.png"); }
+  background-image: url("../img/background.png");
+  width: 100%;
+  min-width: 1800px; }
 
 .wrapper {
   display: flex;
-  position: relative; }
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: Raleway; }
   .wrapper .blockone {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    margin-top: 91px; }
     .wrapper .blockone .general {
       background-image: url("../img/car.png");
       width: 740px;
-      height: 540px; }
+      height: 540px;
+      position: relative;
+      margin-right: 40px; }
+      .wrapper .blockone .general p {
+        font-size: 10pt;
+        color: #818181;
+        position: absolute;
+        top: 360px;
+        left: 41px; }
+      .wrapper .blockone .general h1 {
+        font-size: 30pt;
+        color: #ffffff;
+        position: absolute;
+        top: 400px;
+        left: 38px; }
     .wrapper .blockone .second {
       background-image: url("../img/background_block.png");
       width: 360px;
-      height: 540px; }
+      height: 540px;
+      position: relative; }
+      .wrapper .blockone .second p {
+        font-size: 13pt;
+        color: #818181;
+        position: absolute;
+        top: 279px;
+        left: 28px; }
+      .wrapper .blockone .second h1 {
+        font-size: 20pt;
+        color: #1d1d1d;
+        position: absolute;
+        top: 313px;
+        left: 27px; }
+      .wrapper .blockone .second .pic {
+        position: absolute;
+        top: 459px;
+        left: 28px; }
   .wrapper .blocktwo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    margin-top: 19px;
+    margin-bottom: 209px; }
     .wrapper .blocktwo .third {
       background-image: url("../img/background_block.png");
       width: 360px;
-      height: 540px; }
+      height: 540px;
+      position: relative; }
+      .wrapper .blocktwo .third p {
+        font-size: 13pt;
+        color: #818181;
+        position: absolute;
+        top: 279px;
+        left: 28px; }
+      .wrapper .blocktwo .third h1 {
+        font-size: 20pt;
+        font-size: 20pt;
+        color: #1d1d1d;
+        position: absolute;
+        top: 313px;
+        left: 27px; }
+      .wrapper .blocktwo .third .pic {
+        position: absolute;
+        top: 459px;
+        left: 28px; }
     .wrapper .blocktwo .fourth {
       background-image: url("../img/background_block.png");
       width: 360px;
-      height: 540px; }
+      height: 540px;
+      position: relative;
+      margin-left: 30px;
+      margin-right: 30px; }
+      .wrapper .blocktwo .fourth p {
+        font-size: 13pt;
+        color: #818181;
+        position: absolute;
+        top: 279px;
+        left: 28px; }
+      .wrapper .blocktwo .fourth h1 {
+        font-size: 20pt;
+        font-size: 20pt;
+        color: #1d1d1d;
+        position: absolute;
+        top: 313px;
+        left: 27px; }
+      .wrapper .blocktwo .fourth .pic {
+        position: absolute;
+        top: 459px;
+        left: 28px; }
     .wrapper .blocktwo .fifth {
       background-image: url("../img/background_block.png");
       width: 360px;
-      height: 540px; }
+      height: 540px;
+      position: relative; }
+      .wrapper .blocktwo .fifth p {
+        font-size: 13pt;
+        color: #818181;
+        position: absolute;
+        top: 279px;
+        left: 28px; }
+      .wrapper .blocktwo .fifth h1 {
+        font-size: 20pt;
+        font-size: 20pt;
+        color: #1d1d1d;
+        position: absolute;
+        top: 313px;
+        left: 27px; }
+      .wrapper .blocktwo .fifth .pic {
+        position: absolute;
+        top: 459px;
+        left: 28px; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -128px;
+  margin-left: -100px; }
+  .footer h2 {
+    font-family: Raleway;
+    font-size: 15pt;
+    color: #99a5b0; }

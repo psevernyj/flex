@@ -5,60 +5,174 @@
 }
 
 body {
-
   font-size: 1.6rem;
   font-family: Lato;
   background-image: url("../img/background.png");
+  width: 100%;
+  min-width: 1800px;
+
+
 }
 
 .wrapper {
   display: flex;
-  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: Raleway;
 
-  .blockone{
+
+  .blockone {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
+    margin-top: 91px;
+
+
     .general {
       background-image: url("../img/car.png");
       width: 740px;
       height: 540px;
+      position: relative;
+      margin-right:40px;
+      & p{
+        font-size: 10pt;
+        color: rgba(129, 129, 129, 255);
+        position: absolute;
+        top:360px; left:41px;
+      }
+      & h1{
+        font-size: 30pt;
+        color: #ffffff;
+        position: absolute;
+        top: 400px; left:38px ;
+      }
+
     }
 
     .second {
       background-image: url("../img/background_block.png");
-      width: 360px;
-      height: 540px;
+      width: 360px; height: 540px;
+      position: relative;
+      & p{
+        font-size: 13pt;
+        color:  rgba(129, 129, 129, 255);
+        position:absolute;
+        top:279px; left: 28px;
+      }
+      & h1{
+        font-size: 20pt;
+        color: rgba(29, 29, 29, 255);
+        position: absolute;
+        top:313px; left: 27px;
+
+      }
+      .pic{
+        position: absolute;
+        top:459px; left: 28px;
+      }
     }
   }
 
- .blocktwo{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   flex-direction: row;
-   flex-wrap: wrap;
+  .blocktwo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom:209px;
 
 
-  .third {
-    background-image: url("../img/background_block.png");
-    width: 360px;
-    height: 540px;
+    .third {
+      background-image: url("../img/background_block.png");
+      width: 360px; height: 540px;
+      position: relative;
+      & p{
+        font-size: 13pt;
+        color:  rgba(129, 129, 129, 255);
+        position:absolute;
+        top:279px; left: 28px;
+      }
+      & h1{
+        font-size: 20pt;
+        font-size: 20pt;
+        color: rgba(29, 29, 29, 255);
+        position: absolute;
+        top:313px; left: 27px;
+
+      }
+      .pic{
+        position: absolute;
+        top:459px; left: 28px;
+      }
+
+
+    }
+
+    .fourth {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px;
+      position: relative;
+      margin-left: 30px; margin-right: 30px;
+      & p{
+        font-size: 13pt;
+        color:  rgba(129, 129, 129, 255);
+        position:absolute;
+        top:279px; left: 28px;
+      }
+      & h1{
+        font-size: 20pt;
+        font-size: 20pt;
+        color: rgba(29, 29, 29, 255);
+        position: absolute;
+        top:313px; left: 27px;
+
+      }
+      .pic{
+        position: absolute;
+        top:459px; left: 28px;
+      }
+
+
+    }
+
+    .fifth {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px;
+      position: relative;
+      & p{
+        font-size: 13pt;
+        color:  rgba(129, 129, 129, 255);
+        position:absolute;
+        top:279px; left: 28px;
+      }
+      & h1{
+        font-size: 20pt;
+        font-size: 20pt;
+        color: rgba(29, 29, 29, 255);
+        position: absolute;
+        top:313px; left: 27px;
+
+      }
+      .pic{
+        position: absolute;
+        top:459px; left: 28px;
+      }
+
+    }
   }
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -128px;
+  margin-left: -100px;
+  & h2{
+    font-family: Raleway;
+    font-size: 15pt;
+    color: rgba(153, 165, 176, 255);
 
-  .fourth {
-    background-image: url("../img/background_block.png");
-    width: 360px;
-    height: 540px;
   }
-
-  .fifth {
-    background-image: url("../img/background_block.png");
-    width: 360px;
-    height: 540px;
-  }
- }
 }
