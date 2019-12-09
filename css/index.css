@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.6rem;
+  font-family: Lato;
+  background-image: url("../img/background.png"); }
+
+.wrapper {
+  display: flex;
+  position: relative; }
+  .wrapper .blockone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .wrapper .blockone .general {
+      background-image: url("../img/car.png");
+      width: 740px;
+      height: 540px; }
+    .wrapper .blockone .second {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px; }
+  .wrapper .blocktwo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .wrapper .blocktwo .third {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px; }
+    .wrapper .blocktwo .fourth {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px; }
+    .wrapper .blocktwo .fifth {
+      background-image: url("../img/background_block.png");
+      width: 360px;
+      height: 540px; }
